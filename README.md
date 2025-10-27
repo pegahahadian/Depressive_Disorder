@@ -56,12 +56,14 @@ Leakage Control: patient-level splits and time-bounded features
 ├── workflow.png                # System overview diagram
 └── README.md
 
-##@misc{aadb_depressive_disorder_2025,
+
+## @misc{aadb_depressive_disorder_2025,
   title   = {Depressive_Disorder: Depression Progression Prediction (AIM-AHEAD AADB)},
   author  = {Ahadian, Pegah and collaborators},
   year    = {2025},
   note    = {GitHub repository}
 }
+
 
 ## 📄 License
 
