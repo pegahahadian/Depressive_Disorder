@@ -66,9 +66,8 @@ Leakage Control: patient-level splits and time-bounded features
 ## 📄 License
 
 Released under the MIT License.
-See LICENSE
 
 
-##🙋 Contact
+## 🙋 Contact
 
 For questions or collaboration requests, contact the project maintainer Pahadian@kent.edu
