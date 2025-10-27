@@ -9,7 +9,7 @@ Depressive_Disorder is a research project designed to predict the 2-year progres
 The pipeline includes reproducible machine learning baselines, a deep neural network (DNN), SHAP explainability, and a planned LLM evaluator (“Judge”) for qualitative model auditing.
 All data are de-identified and used in compliance with AIM-AHEAD data-use agreements.
 
-##🧪 Methodology
+## 🧪 Methodology
 
 Cohort: Patients with depression (ICD-9/10: F32.0, F33.0)
 
@@ -33,7 +33,7 @@ Explainability: SHAP (global + local)
 
 Leakage Control: patient-level splits and time-bounded features
 
-##🔍 Contributions
+## 🔍 Contributions
 
 📌 pipeline for depression progression prediction
 
@@ -65,7 +65,7 @@ Leakage Control: patient-level splits and time-bounded features
   note    = {GitHub repository}
 }
 
-##📄 License
+## 📄 License
 
 Released under the MIT License.
 See LICENSE
