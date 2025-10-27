@@ -45,15 +45,25 @@ Leakage Control: patient-level splits and time-bounded features
 
 .
 ├── CatBoost.ipynb              # Gradient boosting baseline
+
 ├── Classes.ipynb               # Cohort building, labeling, splitting
+
 ├── DNN.ipynb                   # Deep neural network baseline
+
 ├── LR.ipynb                    # Logistic regression model
+
 ├── RF.ipynb                    # Random forest model
+
 ├── XGB.ipynb                   # XGBoost model
+
 ├── SHAPly-Analysis.ipynb       # Global/local SHAP analysis
+
 ├── Table_Characteristic.ipynb  # Cohort "Table 1" summary
+
 ├── LLM_Evaluator.py            # LLM-as-Judge evaluator
+
 ├── workflow.png                # System overview diagram
+
 └── README.md
 
 
