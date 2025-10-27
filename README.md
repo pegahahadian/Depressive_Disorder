@@ -71,7 +71,6 @@ Leakage Control: patient-level splits and time-bounded features
   howpublished = {\url{https://github.com/<your-username>/<your-repo>}},
   
   version      = {v0.1.0}
-  
 }
 
 
