@@ -1,7 +1,7 @@
 # Depressive_Disorder
 # 🧠 Machine Learning Pipeline for Depressive Disorder Progression with Agentic LLM Judge
 
-![DD-Agent](Machine Learning (ML) Pipeline 1.png)
+![DD-Agent](ML.png)
 
 ## 🎯 Project Overview
 Depressive_Disorder is a research project designed to predict the 2-year progression from mild to moderate/severe depression using electronic health records (EHR) from the MedStar Health AIM-AHEAD Data Bridge (AADB).
