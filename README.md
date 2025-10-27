@@ -6,7 +6,7 @@
 ## 🎯 Project Overview
 Depressive_Disorder is a research project designed to predict the 2-year progression from mild to moderate/severe depression using electronic health records (EHR) from the MedStar Health AIM-AHEAD Data Bridge (AADB).
 
-The pipeline includes reproducible machine learning baselines, a deep neural network (DNN), SHAP explainability, and a planned LLM evaluator (“Judge”) for qualitative model auditing.
+The pipeline includes reproducible machine learning baselines, a deep neural network (DNN), SHAP explainability, and a LLM evaluator (“Judge”) for qualitative model auditing.
 All data are de-identified and used in compliance with AIM-AHEAD data-use agreements.
 
 ## 🧪 Methodology
@@ -27,9 +27,9 @@ Features: demographics, utilization, comorbidities, labs/vitals, medications, so
 
 Models: Logistic Regression, Random Forest, XGBoost, CatBoost, and DNN (PyTorch)
 
-Handling Imbalance: class weights + optional SMOTE
+Handling Imbalance: class weights 
 
-Explainability: SHAP (global + local)
+Explainability: SHAP
 
 Leakage Control: patient-level splits and time-bounded features
 
@@ -39,9 +39,7 @@ Leakage Control: patient-level splits and time-bounded features
 
 📌 Consistent baseline and deep learning comparison framework
 
-📌 SHAP-based interpretability at global & patient levels
-
-📌 Cohort “Table 1” generator for manuscripts
+📌 SHAP-based interpretability 
 
 📌 Planned LLM-Judge for qualitative error analysis (FP/FN reasoning)
 
@@ -54,7 +52,7 @@ Leakage Control: patient-level splits and time-bounded features
 ├── XGB.ipynb                   # XGBoost model
 ├── SHAPly-Analysis.ipynb       # Global/local SHAP analysis
 ├── Table_Characteristic.ipynb  # Cohort "Table 1" summary
-├── (planned) LLM_Evaluator.py  # LLM-as-Judge evaluator
+├── LLM_Evaluator.py            # LLM-as-Judge evaluator
 ├── workflow.png                # System overview diagram
 └── README.md
 
